@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AssignmentAndroidNangCao_PS12545_LyCaoThang</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="location">AIzaSyAdIgC-EZao1nTyuUpS3WlQdmFliU13AQ4</string>
+    <string name="facebook_app_id">2755317708082744</string>
+
+    <string name="rss_text">https://vnexpress.net/rss/tin-moi-nhat.rss</string>
+    <string name="rss_trangthai" />
+    <string name="rss_taitrang">Download</string>
+</resources>

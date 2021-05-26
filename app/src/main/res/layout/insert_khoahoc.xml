@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/khoantc_item"
+
+    android:elevation="5dp"
+    app:cardBackgroundColor="@android:color/darker_gray"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:background="#F5F5F5">
+
+        <TextView
+            android:id="@+id/tvTieuDe3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Khoá học"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FBE204"
+            android:background="#800000"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="8dp"/>
+        <!--        <EditText-->
+        <!--            android:id="@+id/tvMaTC"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="48dp"-->
+        <!--            android:layout_below="@+id/tvTieuDe"-->
+        <!--            android:layout_alignParentLeft="true"-->
+        <!--            android:hint="..."-->
+        <!--            android:gravity="left|center_vertical"-->
+        <!--            android:layout_margin="8dp"/>-->
+        <EditText
+            android:id="@+id/edtmonhoc"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/tvTieuDe3"
+            android:layout_alignParentLeft="true"
+            android:hint="Ten mon hoc"
+            android:gravity="left|center_vertical"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/edtgiangvien"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/edtmonhoc"
+            android:layout_alignParentLeft="true"
+            android:hint="giang vien"
+            android:gravity="left|center_vertical"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/edtngaybd"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/edtgiangvien"
+            android:layout_alignParentLeft="true"
+            android:hint="Ngay bd"
+            android:gravity="left|center_vertical"
+            android:layout_margin="8dp"/>
+        <EditText
+            android:id="@+id/edtngaykt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/edtngaybd"
+            android:layout_alignParentLeft="true"
+            android:hint="Ngay kt"
+            android:gravity="left|center_vertical"
+            android:layout_margin="8dp"/>
+        <ImageView
+            android:id="@+id/datengaybd"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/edtngaybd"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="187dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_add_box" />
+
+
+
+        <!--        <Spinner-->
+<!--            android:id="@+id/spn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/tvGhiChu3"/>-->
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/tvMaLoai"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="48dp"-->
+        <!--            android:layout_below="@+id/tvGhiChu"-->
+        <!--            android:layout_alignParentLeft="true"-->
+        <!--            android:hint="..."-->
+        <!--            android:gravity="left|center_vertical"-->
+        <!--            android:layout_margin="8dp"/>-->
+
+
+        <ImageView
+            android:id="@+id/datengaykt"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/edtngaykt"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="249dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_add_box" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/btnThem"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Them"-->
+        <!--            android:layout_below="@+id/ktcSeparate"/>-->
+
+
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:background="#C0C0C0"
+            android:text="Thêm " />
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#D3D3D3"
+            android:layout_marginTop="10dp"
+            android:text="Huỷ" />
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

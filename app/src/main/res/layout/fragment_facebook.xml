@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/khoantc_item"
+    android:background="#FBE204"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/logoandroid" />
+
+    <TextView
+        android:text="Name:Lý Cao Thắng"
+        android:textStyle="bold"
+        android:textColor="#490101"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="PS12545"
+        android:textStyle="bold"
+        android:textColor="#490101"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Lớp:LT Android Nâng Cao"
+        android:textStyle="bold"
+        android:textColor="#490101"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+    android:text="Android cung cấp một khuôn khổ ứng dụng phong phú cho phép bạn xây dựng các ứng dụng và trò chơi mới cho các thiết bị di động trong môi trường ngôn ngữ Java. Tài liệu được liệt kê trong vùng điều hướng bên trái sẽ cung cấp chi tiết về cách xây dựng ứng dụng bằng cách sử dụng các API khác nhau của Android."
+    android:textStyle="bold"
+    android:textColor="#490101"
+    android:textSize="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>

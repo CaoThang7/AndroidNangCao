@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/manhinhchucnang"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManHinhChucNang">
+
+
+<!--    <EditText-->
+<!--        android:hint="Nhap tieu de"-->
+<!--        android:gravity="center"-->
+<!--        android:id="@+id/edittexttitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <EditText-->
+<!--        android:hint="Nhap mota"-->
+<!--        android:gravity="center"-->
+<!--        android:id="@+id/edittextdescription"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+
+
+<!--    <com.facebook.share.widget.ShareButton-->
+<!--        android:id="@+id/btnShareLink"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@id/login_button"/>-->
+
+    <ImageView
+        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"/>
+<!--    <Button-->
+<!--        android:id="@+id/btnchonanh"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="choose anh"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+    <Button
+        android:id="@+id/buttonshareimg"
+        android:layout_gravity="center"
+        android:text="Share Image"
+        android:background="#C0C0C0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Xin mời nhập link:"
+        android:textStyle="bold"
+        android:textColor="#490101"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Nhập đường dẫn"
+        android:gravity="center"
+        android:id="@+id/edittexturl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnShareLink"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Share Link"
+        android:background="#C0C0C0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<!--    <VideoView-->
+<!--        android:id="@+id/videoView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <Button-->
+<!--            android:id="@+id/btnPick"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:text="Pick Video"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/buttonsharevideo"-->
+<!--            android:text="Share video"-->
+<!--            android:layout_marginLeft="110dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--    </LinearLayout>-->
+
+
+
+
+</LinearLayout>
