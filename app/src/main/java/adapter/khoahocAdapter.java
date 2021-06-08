@@ -26,7 +26,7 @@ import dao.KhoaHocDAO;
 import model.KhoaHoc;
 
 
-public class khoahocAdapter extends RecyclerView.Adapter<khoahocAdapter.KhoanTCHolder> {
+public class    khoahocAdapter extends RecyclerView.Adapter<khoahocAdapter.KhoanTCHolder> {
     Activity context;
     ArrayList<KhoaHoc> list;
     KhoaHocDAO dao;
